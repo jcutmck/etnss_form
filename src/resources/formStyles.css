@@ -1,0 +1,36 @@
+/* formStyles.css */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  margin: 16px;
+  width: 100em;
+}
+
+.form-field {
+  margin-bottom: 15px;
+  max-width: 20em;
+}
+
+.formdate {
+  max-width: 20em;
+}
+
+.form-button {
+  margin-top: 10px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+  .form-container {
+    margin: 10px;
+  }
+
+  .form-field {
+    margin-bottom: 10px;
+  }
+
+  .form-button {
+    margin-top: 5px;
+  }
+}
