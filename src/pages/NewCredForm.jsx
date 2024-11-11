@@ -24,8 +24,9 @@ function NewCredForm() {
             ...values,
             dob: formatDate(values.dob),
         };*/
-    
-        fetch('https://uhsvtsdohdapp01.utmck.edu:5000/api/submit', {
+   
+        //redacted
+        fetch('https://null/api/submit', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
