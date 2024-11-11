@@ -23,16 +23,16 @@ function VerifyVisit() {
             dob: dob
         };
 
-        // local pyenv version:  fetch('http://127.0.0.1:5000/api/verify', {
+        // local pyenv version:  fetch('redacted', {
         //LOCAL TEST:  'Content-Type': 'application/json'
       
-        // corepoint version:  fetch('https://cptest-vip.utmck.edu:9443/dev/', {
+        // corepoint version:  fetch('redacted', {
         //COREPOINT TEST:  'Content-Type': '*/*'
 
-        // UT Dev Server Version:  fetch('http://uhsvtsdohdapp01.utmck.edu:5000/', {
+        // UT Dev Server Version:  
         //COREPOINT TEST:  'Content-Type': 'application/json'
-    
-        fetch('https://uhsvtsdohdapp01.utmck.edu:5000/api/verify', {
+    //redacted
+        fetch('null', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
