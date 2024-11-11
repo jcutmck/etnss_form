@@ -17,9 +17,9 @@ function VerifyVisit() {
     const getApiUrl = () => {
         const { hostname } = window.location;
         if (hostname === 'sdohtest.utmck.edu') {
-          return 'https://sdohtest.utmck.edu:5000';
+          return 'null';//redacted
         }
-        return 'https://uhsvtsdohdapp01.utmck.edu:5000';
+        return 'null'; //redacted
     };
 
     const handleSubmit = async (values, { setSubmitting, setErrors }) => {
